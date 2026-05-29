@@ -1,0 +1,11 @@
+
+Tableau Dashboard Suggestions:
+1. Team Win Analysis
+2. Venue Performance
+3. Player Statistics
+4. Match Trends
+
+Connect Tableau to:
+- MySQL Database
+OR
+- cleaned_matches.csv

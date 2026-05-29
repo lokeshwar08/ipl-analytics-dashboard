@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPL Analytics Dashboard</title>
+</head>
+<body>
+    <h1>IPL Match Analytics</h1>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Team 1</th>
+            <th>Team 2</th>
+            <th>Winner</th>
+            <th>Venue</th>
+            <th>Runs</th>
+        </tr>
+
+        {% for match in matches %}
+        <tr>
+            <td>{{ match.team1 }}</td>
+            <td>{{ match.team2 }}</td>
+            <td>{{ match.winner }}</td>
+            <td>{{ match.venue }}</td>
+            <td>{{ match.runs }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
